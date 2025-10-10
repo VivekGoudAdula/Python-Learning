@@ -54,3 +54,5 @@ groceries = ["Bread", "Milk", "Eggs", "Bread", 10]
 groceries.sort() # Sorts the list in ascending order
 groceries.sort(reverse = True) # Sorts the list in descending order
 groceries.reverse() # Reverses the order of the list
+
+# ---------------------------------

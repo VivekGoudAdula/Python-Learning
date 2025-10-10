@@ -22,3 +22,5 @@ frozen_colors = frozenset({"red", "green", "blue"}) # frozenset
 
 # Boolean Type: bool
 is_student = True # bool
+
+# ----------------------------------

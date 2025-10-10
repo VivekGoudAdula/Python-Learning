@@ -37,3 +37,30 @@ fruits.discard("banana") # Removes banana, does not raise an error if not found
 fruits.pop() # Removes a random item
 fruits.clear() # Empties the set
 del fruits # Deletes the set entirely
+
+# ---------------------------------
+
+# JOINING SETS
+set1 = {"apple", "ball", "cat"}
+set2 = {1, 2, 3}
+set3 = set1.union(set2) # Merges set1 and set2
+
+set4 = {"dog", "elephant"}
+set5 = {"cat", "fox"}
+set4.update(set5) # Merges set5 into set4
+
+# INTERSECTION
+fruits = {"apple", "banana", "cherry"}
+companies = {"microsoft", "apple", "google"}
+new = fruits.intersection(companies)
+print(new) # Returns items present in both sets
+
+# DIFFERENCE
+new = fruits.difference(companies) # Items in fruits but not in companies   
+
+# ---------------------------------
+
+# FROZEN SET
+
+a = frozenset({1,2,34}) # Immutable set
+print(type(a))

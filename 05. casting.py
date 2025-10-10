@@ -15,3 +15,5 @@ c = float("3") # c will be a float of value 3.0
 p = str(10) # p will be a string of value '10'
 q = str(10.01) # q will be a string of value '10.01'
 r = str("Vivek") # r will be a string of value 'Vivek'
+
+# ---------------------------------

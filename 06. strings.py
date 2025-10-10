@@ -59,3 +59,5 @@ print(f"My name is {fullName} and I am {age} years old.") # f-string formatting
 # MODIFIERS
 price = 49.95467
 print(f"Price is {price:.2f}") # Limits to 2 decimal places
+
+# ---------------------------------

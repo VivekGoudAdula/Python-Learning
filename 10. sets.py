@@ -64,3 +64,5 @@ new = fruits.difference(companies) # Items in fruits but not in companies
 
 a = frozenset({1,2,34}) # Immutable set
 print(type(a))
+
+# ----------------------------------

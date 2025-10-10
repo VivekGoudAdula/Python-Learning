@@ -62,3 +62,5 @@ x,y,z = "Apple,""Ball","Cat"
 
 # ONE VALUE TO MULTIPLE VARIABLES
 g = h = i = "Dog"
+
+# ----------------------------------
